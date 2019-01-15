@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body style="background-color:navy;">
+    <img src="Blue.jpg" style="position: absolute; Top: 0px; Left: 0px; Width: 400px; Height: 300px;">
+    <img src="Red.jpg" style="position: absolute; Top: 0px; Left: 1050px; Width: 400px; Height: 300px;">
+    <img src="redbox.png" style="position: absolute; Top: 320px; Left: 0px; Width: 400px; Height: 400px;">
+    <img src="kayn.png" style="position: absolute; Top: 310px; Left: 1050px; Width: 390px; Height: 200px;">
+        <img src="a.png" style="position: absolute; Top: 520px; Left: 1050px; Width: 390px; Height: 200px;">
+    <a href="index.html" style="color:white; position: absolute; Top: 10px; Left: 410px;">About</a>
+        
+    <h1 style="font-family:fantasy; color:white; font-size:300%; position: absolute; Top: -20px; Left: 580px">How to Jungle</h1>  
+    <h2 style="font-family:fantasy; color:white; font-size:100%; position: absolute; Top: 330px; Left: 155px">Why Kayn?</h2>
+    <p style="font-family:fantasy; color:white; font-size:100%; position: absolute; Top: 380px; Left: 15px">Kayn is not only one of the best junglers of the new<br>season. But one of the easiest to pick up with a<br>great winrate in lower ranks. For people like Henry<br>who are hard stuck in Iron IV its perfect to play.<br>Kayns abilities allow for great jungler clears, and<br>great lane pressure with a great late game. The new<br>changes in patch 9.1 allow kayn to get to the late<br>game earlier making him that much better.</p>
+    <h1 style="font-family:fantasy; color:white; font-size:150%; position: absolute; Top: 50px; Left: 600px">Blue Kayn vs Red Kayn</h1>
+    <p style="font-family:fantasy; color:white; font-size:100%; position: absolute; Top: 90px; Left: 410px">With the new updates getting kayns form is easier than ever. The decision is between<br>Shadow(blue) Kayn and Darkin(red) Kayn. They both have there own skill sets and<br>somewhat different abilities. Shadow Kayn can pull off his combo quicker with more<br>damage but is squishier with less healing. This allows him to quickly kill low health targets. <br>Red Kayn is the opposite. Slower but more cc and healing means he can deal with tanks<br>easier. Ultimately the decision is up to you. To get Red kayn you need to attack melee<br>champions and to get blue ranged champions. Blue kayn tends to be a better choice right<br>now but agaist tanks or bruisers that may be ahead red kayn can be good.</p>
+    
+
+        <script>
+            function ability(a) {
+                var pic;
+                if (a == 0) {
+                    pic = "q.png"
+                } else if (a == 1) {
+                    pic = "w.png"
+                } else if (a == 2) {
+                    pic = "e.png"
+                } else {
+                    pic = "r.png"
+                }
+                document.getElementById('myImage').src = pic;
+                }
+        </script>
+
+        <img id="myImage" src="q.png" style="position: absolute; top: 360px; left: 410px; width: 630px; 550px;">
+
+        <p>
+            <button style="position: absolute; Top: 330px; left: 410px" type="button" onclick="ability(0)">Q</button>
+            <button style="position: absolute; Top: 330px; left: 430px" type="button" onclick="ability(1)">W</button>
+            <button style="position: absolute; Top: 330px; left: 450px" type="button" onclick="ability(2)">E</button>
+            <button style="position: absolute; Top: 330px; left: 470px" type="button" onclick="ability(3)">R</button>
+        </p>
+
+    </body>
+</html>
