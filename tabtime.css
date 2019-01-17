@@ -1,0 +1,30 @@
+.logo{
+	background-image: url("background.gif");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+	width: 100%;
+}
+
+header{
+	color: white;
+    font-size: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+nav{
+	margin: 0px;
+	font-size: 40px;
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	height: 50px;
+    Top: 700px;
+}
+
+body{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
